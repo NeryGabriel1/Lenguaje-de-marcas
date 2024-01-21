@@ -1,0 +1,150 @@
+
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;;
+    padding: 0;
+    background-color:   #c4040475 ;
+    color: #161515;
+    min-height: 100vh;
+    background-image: url(https://www.xtrafondos.com/wallpapers/resized/amanecer-en-la-playa-1453.jpg?s=large);
+    background-size: cover;
+    background-position: center;
+} 
+/* Estilo para el encabezado del artículo */
+article header {
+    background-color:#248315ab;
+    color: #dbcbcb;
+    padding: 50px;
+    text-align: center;
+    border-radius: 20px;
+}
+ 
+/* Títulos */
+h1, h2 {
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+ 
+/* Fecha del artículo */
+article header time {
+    font-style: italic;
+    color: #f4f4f4;
+}
+ 
+/* Estilos para las secciones */
+section {
+    background-color:#13dd0cdf;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(36, 201, 18, 0.473);
+    MARGIN-BOTTOM: AUTO;
+}
+.articulo, .ul{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+} 
+/* Estilos para listas */
+ul {
+    padding-left: 30px;
+    text-decoration: #13dd0cdf;
+    align-items: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+P {
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+ul ul {
+    list-style-type: circle;
+    align-content: center;
+}
+ 
+/* Estilos para el formulario */
+form {
+    background-color: #80ec42bb;
+    padding: 1em;
+    border-radius: 8px;
+}
+ 
+form label {
+    display: block;
+    margin-bottom: 0.5em;
+    TEXT-ALIGN: center;
+}
+ 
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+ 
+form input[type="submit"] {
+    background-color: #80ec42bb;
+    color: white;
+    border: none;
+    font-size: 18px;
+    margin: 5px;
+    padding: 15px 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+}
+ 
+form input[type="submit"]:hover {
+    background-color: #e13e3e;
+}
+ 
+/* Estilos para tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+}
+ 
+table, th, td {
+    border: 1px solid #201f1f;
+}
+ th, td {
+    text-align: left;
+    padding: 8px;
+} 
+thead {
+    background-color: #04ff00;
+    color: #ffffff;
+}
+ 
+/* Media queries para responsividad. Aún no hemos dado esto y solamente lo quiero mencionar. Busca su significado */
+/* aplicar estilos diferentes a un documento HTML en función de las características del
+dispositivo en el que se visualiza la página,
+principalmente basándose en el tamaño de la pantalla y la resolución. */
+@media (max-width: 600px) {
+    body {
+        background-color: #e3f2fd;
+    }
+ 
+    article header {
+        padding: 0.5em 0;
+    }
+ 
+    form input[type="submit"] {
+        width: 100%;
+    }
+}
